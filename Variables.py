@@ -3,6 +3,18 @@
 First_name = "Gourob"
 Last_name = "Saha"
 Full_name = First_name+" "+Last_name
-
+print(type(Full_name))
 print("Hello "+Full_name)
+
+# Datatype - int
+age = 21
+#age = age+1
+age += 1
+print(type(age))
+print("You are "+str(age)+" years old now")
+
+# Datatype - float
+height = 175.56
+print(type(height))
+print("You are "+str(height)+" cm tall")
 
