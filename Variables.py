@@ -18,3 +18,20 @@ height = 175.56
 print(type(height))
 print("You are "+str(height)+" cm tall")
 
+# Datatype - boolean
+code = True
+print(type(code))
+print("I can do python: "+str(code))
+
+# String Methods
+name = "gourob"
+print(len(name))
+print(name.find("o"))
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.isdigit())
+print(name.isalpha())
+print(name.count("o"))
+print(name.replace("o","a"))
+print(name*5)
