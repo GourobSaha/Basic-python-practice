@@ -25,3 +25,4 @@ age1 = age1+1
 print("Hello "+name1)
 print("You are "+str(age1)+" years old")
 print("You are "+str(height1)+"cm tall")
+
