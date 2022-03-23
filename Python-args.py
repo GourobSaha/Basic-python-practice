@@ -4,7 +4,7 @@
 def add(*Add):
     sum = 0
     Add = list(Add)
-    Add[3] = 0  #fixing the value of fourth position by using list
+    Add[5] = 0  #fixing the value of a position by using list
     for i in Add:
         sum+=i
     return sum
